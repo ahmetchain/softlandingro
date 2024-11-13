@@ -1,4 +1,4 @@
-import FAQSection from "./Components/FaqSection";
+import FAQSection from "./Components/FAQSection";
 import FeatureCards from "./Components/FeatureCard";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
