@@ -1,5 +1,5 @@
 import content from "../../content.json";
-import bg from "../assets/3.jpeg";
+import bg from "../assets/4.png";
 const QuoteSection = () => {
   return (
     <div className="w-full h-auto mt-10 lg:mt-0 mb-10 px-4">

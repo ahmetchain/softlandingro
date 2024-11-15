@@ -77,30 +77,64 @@
 
   "serviceStages": [
     {
-      "stage": "Market Entry Advisory Support",
-      "description": "We offer expert guidance to help clients assess Romania’s market opportunities, navigate regulations, and develop entry strategies aligned with their business objectives."
-    },
-    {
-      "stage": "Market Discovery Program",
-      "description": "Our market research programs provide insights into Romania’s market dynamics, consumer behavior, and industry trends, giving clients valuable intelligence for decision-making."
-    }
-  ],
-  "servicesStagesRight": [
-    {
       "stage": "Pre-Setup",
-      "description": "Soft Landing Romania guides foreign investors in understanding the Romanian market landscape and prepares them for successful market entry."
+      "description": "Soft Landing Romania guides foreign investors in understanding the Romanian market landscape and prepares them for successful market entry.",
+      "details": [
+        {
+          "title": "Market Entry Advisory Support",
+          "description": "We offer expert guidance to help clients assess Romania’s market opportunities, navigate regulations, and develop entry strategies aligned with their business objectives."
+        },
+        {
+          "title": "Market Discovery Program",
+          "description": "Our market research programs provide insights into Romania’s market dynamics, consumer behavior, and industry trends, giving clients valuable intelligence for decision-making."
+        }
+      ]
     },
     {
       "stage": "Through Setup",
-      "description": "During the setup phase, Soft Landing Romania ensures a seamless business establishment and operational setup for compliance and efficiency."
+      "description": "During the setup phase, Soft Landing Romania ensures a seamless business establishment and operational setup for compliance and efficiency.",
+      "details": [
+        {
+          "title": "Business Establishment & Registration",
+          "description": "We manage all legal and regulatory requirements, ensuring smooth compliance and facilitating interactions with government authorities, allowing clients to focus on core business activities."
+        },
+        {
+          "title": "Office Setup & Logistics",
+          "description": "From securing suitable office spaces to logistical support for infrastructure and operational needs, we streamline the setup process, enabling clients to establish a physical presence in Türkiye swiftly and effectively."
+        }
+      ]
     },
     {
       "stage": "Aftercare",
-      "description": "We provide ongoing support to sustain and grow clients’ ventures in Romania’s competitive market."
+      "description": "We provide ongoing support to sustain and grow clients’ ventures in Romania’s competitive market.",
+      "details": [
+        {
+          "title": "Business Development",
+          "description": "We strategize and execute market expansion initiatives, provide sales and marketing support, and facilitate partnerships to enhance clients’ market presence and maximize growth opportunities."
+        },
+        {
+          "title": "HR & Localization",
+          "description": "Our services include navigating employment regulations, sourcing local talent, and ensuring compliance with labor laws, enabling smooth and effective workforce management."
+        },
+        {
+          "title": "Promotion & Communication",
+          "description": "We help clients enhance brand visibility, craft effective communication strategies, and engage with local stakeholders to strengthen market position and foster customer relationships."
+        }
+      ]
     },
     {
       "stage": "Tailored Services",
-      "description": "Soft Landing Romania offers bespoke solutions to meet specific client needs, including advanced business modeling and strategic advisory."
+      "description": "Soft Landing Romania offers bespoke solutions to meet specific client needs, including advanced business modeling and strategic advisory.",
+      "details": [
+        {
+          "title": "Business Modeling Services",
+          "description": "Our financial experts specialize in creating robust business models tailored for Türkiye, facilitating informed decision-making for transactions, new market entries, and strategic planning."
+        },
+        {
+          "title": "Financial Insights & Strategic Guidance",
+          "description": "We provide comprehensive support including model review, financial instrument evaluation, feasibility studies, budgeting, valuation advice, and auditing tools, equipping clients with the financial insights needed for strategic growth and success."
+        }
+      ]
     }
   ],
 
@@ -179,8 +213,10 @@
       "twitter": "Twitter"
     },
     "headOffice": {
-      "address": "Conference Center, 20 F St NW 7th floor, Washington, DC 20001, USA",
+      "address": "C16 Nisipari str. District 1, Bucharest, Romania 014125",
       "email": "info@softlandingro.com"
     }
   }
 }
+
+

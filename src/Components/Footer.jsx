@@ -43,7 +43,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="text-lg">
-            <span className="font-semibold">Head Office</span>
+            <span className="font-semibold">Romania Office</span>
             <p>{content.contactSection.headOffice.address}</p>
           </div>
         </div>
