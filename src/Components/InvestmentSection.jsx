@@ -1,31 +1,39 @@
 import content from "../../content.json";
 import bg from "../assets/1.jpeg";
+import Flag from "../assets/Flag.png";
+
 const InvestmentSection = () => {
   return (
     <div
       className="min-h-screen relative"
       style={{
-        backgroundImage: `url(${bg})`, // Arka plan resmini burada ayarlıyoruz
+        backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a8a] to-[#02094d] opacity-90"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a8a] to-[#02094d] opacity-75"></div>
 
       {/* Content */}
       <div className="relative w-full max-w-[1320px] mx-auto py-10 px-4 sm:px-6 lg:py-20">
         <div className="text-white">
           {/* Header Section */}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
-            {content.whyInvestHeading}
-          </h1>
-
-          {/* Main Description */}
-          <p className="text-lg sm:text-xl leading-relaxed mb-10 sm:mb-16 max-w-3xl">
-            {content.whyInvestDescription}
-          </p>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
+                {content.whyInvestHeading}
+              </h1>
+              {/* Main Description */}
+              <p className="text-lg sm:text-xl leading-relaxed mb-10 sm:mb-16 max-w-3xl">
+                {content.whyInvestDescription}
+              </p>
+            </div>
+            <div className=" w-[400px]">
+              <img className="w-full" src={Flag} />
+            </div>
+          </div>
 
           {/* Advantages Section */}
           <div className="mb-6 mt-10 sm:mt-20">
