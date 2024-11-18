@@ -1,6 +1,6 @@
 import content from "../../content.json";
 import bg from "../assets/1.jpeg";
-import Flag from "../assets/Flag.png";
+import Flag from "../assets/roman.png";
 
 const InvestmentSection = () => {
   return (
@@ -14,7 +14,7 @@ const InvestmentSection = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a8a] to-[#02094d] opacity-75"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#1e3a8a] to-[#02094d] opacity-65"></div>
 
       {/* Content */}
       <div className="relative w-full max-w-[1320px] mx-auto py-10 px-4 sm:px-6 lg:py-20">
@@ -30,7 +30,7 @@ const InvestmentSection = () => {
                 {content.whyInvestDescription}
               </p>
             </div>
-            <div className=" w-[400px]">
+            <div className="hidden lg:block w-[400px]">
               <img className="w-full" src={Flag} />
             </div>
           </div>
